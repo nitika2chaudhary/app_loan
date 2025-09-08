@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 st.set_page_config(page_title="Loan Calculator", layout="centered")
-st.title("💰 Advanced Loan Calculator")
+st.title(" Loan Calculator")
 
 # Inputs
 loan_amount = st.number_input("Loan Amount (₹)", min_value=1000, step=1000, value=100000)
@@ -69,3 +69,4 @@ ax2.set_xlabel("Year")
 ax2.set_ylabel("Amount (₹)")
 ax2.legend()
 st.pyplot(fig2)
+
